@@ -9,7 +9,7 @@ mcp  = FastMCP(name="Simple calculator Server")
 def add_numbers(a: int, b: int) -> int:
     """Add 2 numbers together
     Args:
-        a (int): First number
+        a (int): First number   
         b (int): Second number
     Returns:
         int: The sum of the two numbers
@@ -46,4 +46,3 @@ def server_info() -> dict:
 if __name__ == "__main__":
     mcp.run(transport="http", host="0.0.0.0", port=8000)
 
-    
