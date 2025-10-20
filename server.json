@@ -1,0 +1,7 @@
+{
+  "entrypoint": "main.py",
+  "language": "python",
+  "requirements": ["fastmcp==0.3.4"],
+  "transport": "http",
+  "port": 8000
+}
